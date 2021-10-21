@@ -118,7 +118,7 @@ async def handle_message(msg):
 
 
 async def consume(queue):
-    """Consumer client to simulate subscribing to a publisher.
+    """Consumer client to simulate subscribing to a publisher. s
     Args:
         queue (asyncio.Queue): Queue from which to consume messages.
     """
@@ -163,4 +163,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()  

@@ -61,7 +61,7 @@ async def consume(queue):
 
         # process the msg
         logging.info(f'Consumed {msg}')
-        # simulate i/o operation using sleep
+        # simulate i/o operation using sleep s
         await asyncio.sleep(random.random())
 
 
